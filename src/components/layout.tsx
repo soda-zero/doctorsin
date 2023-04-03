@@ -10,10 +10,12 @@ export default function RootLayout({
 }) {
   return (
     <div
-      className={`${inter.className} grid grid-cols-4 lg:grid-cols-5 bg-slate-900 h-full text-white`}
+      className={`${inter.className} grid grid-cols-7 lg:grid-cols-8 bg-white h-full`}
     >
       <SideBar />
-      {children}
+      <div className="col-span-6 lg:col-span-7 border-l border-l-slate-200">
+        <div className="h-full">{children}</div>
+      </div>
     </div>
   );
 }

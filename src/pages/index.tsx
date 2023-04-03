@@ -11,9 +11,6 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <RootLayout>
-        <div className="col-span-3 lg:col-span-4 border-l boder-l-slate-700">
-          <div className="h-full px-8 py-6"></div>
-        </div>
       </RootLayout>
     </>
   );
